@@ -15,6 +15,7 @@ import random from "./assets/random.PNG";
 import logo from "./assets/logo.png";
 import fidha from "./assets/me.jpg";
 import fidha2 from "./assets/me1.jpg";
+import resume from "./assets/Fathima-Fidha.pdf";
 
 const projects = [
   {
@@ -287,7 +288,7 @@ function App() {
               </div>
 
               <a
-                href="/resume.pdf"
+                href={resume}
                 className="button button-primary"
                 target="_blank"
                 rel="noreferrer"
